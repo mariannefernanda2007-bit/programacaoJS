@@ -97,13 +97,15 @@ Mostre na tela o nome e o preço de cada produto individualmente.
 Em seguida, calcule e mostre o valor total dos dois produtos.
 
 */
-let preduto = "camiseta"
+let preduto1 = "camiseta"
 let preco = 45.90
 
 let produto2 = "bolsa" 
 let preco2 = 38.50 
+let total: = preco1 + preco2
 
-console.log()
+console.log("O preco de " +produto1+ " é R$ " +preco2)
+console.log ("total")
 
 
 /*
@@ -118,7 +120,11 @@ Mostre na tela o salário atual e o novo salário.
 
 */
 let salario = 3000
-let
+let aumento = 500
+let inss = 250
+let total = salario + aumento - inss
+
+console.log()
 /*
 ### ----- Atividade 7:
 
@@ -166,7 +172,9 @@ Exemplo:
 3 horas correspondem a 180 minutos ou 10800 segundos.
 
 */
-
+let horas = 2
+let minutos = 2 * 60
+let segundos = horas * 3600
 
 /*
 ### ----- Atividade 11:
@@ -179,6 +187,14 @@ e que o valor original da segunda variável seja armazenado na primeira variáve
 Ao final, mostre o valor das duas variáveis na tela.
 
 */
+
+let valor1 = "groselha"
+let valor2 = 99
+let auxiliar = valor1
+valor = valor2
+valor2 = valor1
+
+console.log("A variavel 1 é :" +valor1 "e a variavel 2 é " +valor2)
 
 /*
 ### ----- Atividade 12:
