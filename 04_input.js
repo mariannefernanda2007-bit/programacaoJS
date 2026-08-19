@@ -1,7 +1,7 @@
 // Aula 04: INPUT
 console.log 
-let prompt = require("Prompt-Sync")()
 
+let prompt = require("Prompt-Sync")()
 let nome = prompt("Olá, digite seu nome:")
 console.log("Seja bem-vindo(a)" +nome)
 
