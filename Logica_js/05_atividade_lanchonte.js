@@ -12,5 +12,13 @@ let ingrediente1 = parseFloat (prompt ("Digite o preço da salsicha: ") )
 let ingrediente2 = parseFloat (prompt ("Digite o preço do pure de batata: ") )
 let ingrediente3 = parseFloat (prompt ("Digite o preço do queijo:") )
 let ingrediente4= parseFloat (prompt ("Digite o preço do bacon: ") )
-let lucro = parseFloat ( prompt ("Digite a porsentagem de lucro desejada: ") )
+
+let lucro = parseFloat ( prompt ("Digite a porsentagem de lucro desejada: % ") )
+
+console.log("--------------------------------------")
+console.log("O lucro desejado é de :  +lucro + %")
+console.log("--------------------------------------")
+
+
+
 
